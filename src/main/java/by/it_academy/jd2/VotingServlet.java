@@ -57,7 +57,7 @@ public class VotingServlet extends HttpServlet {
     }
 
     private void writeBrakeLine(Writer writer) throws IOException {
-        writer.write("____________</br>\n");
+        writer.write("****************</br>\n");
     }
 
     private void writeTo(List<Map.Entry<String, Integer>> data, Writer writer) throws IOException {
